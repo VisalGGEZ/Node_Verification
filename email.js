@@ -8,8 +8,8 @@ var smtpConfig = {
     secure: true, // use SSL
     service: 'Gmail',
     auth: {
-        user: 'visal012896@gmail.com',
-        pass: 'Visal14k010499805'
+        user: 'mail@gmail.com',
+        pass: 'pass'
     }
 };
 var transporter = nodemailer.createTransport(smtpConfig);
